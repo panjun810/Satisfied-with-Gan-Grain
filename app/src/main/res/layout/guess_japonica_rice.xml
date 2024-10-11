@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/guess_japonica_rice">
+
+        <View
+            android:background="#E3E3E3"
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"/>
+
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:id="@+id/iv_japonica_rice_guess1"
+                android:src="@drawable/guess_icon"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_japonica_rice_guess1"
+                android:textSize="16sp"
+                android:textColor="#33cc00"
+                android:text="整精米率(%)"
+                android:layout_toRightOf="@+id/iv_japonica_rice_guess1"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:background="@drawable/guess_edit_icon"
+                android:layout_toRightOf="@+id/tv_japonica_rice_guess1"
+                android:layout_marginLeft="49dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/et_japonica_rice_guess1"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:inputType="numberDecimal"/>
+
+
+
+        </RelativeLayout>
+
+        <View
+            android:background="#E3E3E3"
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"/>
+
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:id="@+id/iv_japonica_rice_guess2"
+                android:src="@drawable/guess_icon"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_japonica_rice_guess2"
+                android:textSize="16sp"
+                android:textColor="#33cc00"
+                android:text="出糙率(%)"
+                android:layout_toRightOf="@+id/iv_japonica_rice_guess2"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:background="@drawable/guess_edit_icon"
+                android:layout_toRightOf="@+id/tv_japonica_rice_guess2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/et_japonica_rice_guess2"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:inputType="numberDecimal"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:id="@+id/iv_japonica_rice_guess3"
+                android:src="@drawable/guess_icon"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_japonica_rice_guess3"
+                android:textSize="16sp"
+                android:textColor="#33cc00"
+                android:text="谷外糙米(%)"
+                android:layout_toRightOf="@+id/iv_japonica_rice_guess3"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:background="@drawable/guess_edit_icon"
+                android:layout_toRightOf="@+id/tv_japonica_rice_guess3"
+                android:layout_marginLeft="49dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/et_japonica_rice_guess3"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:inputType="numberDecimal"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:id="@+id/iv_japonica_rice_guess4"
+                android:src="@drawable/guess_icon"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_japonica_rice_guess4"
+                android:textSize="16sp"
+                android:textColor="#33cc00"
+                android:text="黄粒米(%)"
+                android:layout_toRightOf="@+id/iv_japonica_rice_guess4"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:background="@drawable/guess_edit_icon"
+                android:layout_toRightOf="@+id/tv_japonica_rice_guess4"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/et_japonica_rice_guess4"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:inputType="numberDecimal"/>
+
+
+
+        </RelativeLayout>
+
+        <Button
+            android:background="@drawable/register_selector"
+            android:layout_height="40dp"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_japonica_rice"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:text="粳稻测算"/>
+
+    </LinearLayout>
+</LinearLayout>

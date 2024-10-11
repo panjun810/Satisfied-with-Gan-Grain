@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg">
+
+    <com.example.graduationdesign.customControl.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/headIcon_change_title"/>
+
+    <LinearLayout
+        android:id="@+id/main_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <!--属性cardCornerRadius设置CardView的圆角半径-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="60dp">
+
+        <ImageView
+            android:id="@+id/main_icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/calender"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/main_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="更换头像"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="省局召开全省粮食购销领域监管信息化工作推进会"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:text="发布时间：2023-04-21"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/read"
+            android:text="阅读次数：137 次"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/dashed_line"
+        android:layout_marginTop="15dp" />
+
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         4月20日，省粮食和储备局召开全省粮食购销领域监管信息化工作推进会。省发展改革委党组成员，局党组书记、局长路文革出席会议并讲话，局党组成员、副局长李湘晖主持会议。"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         会议传达了全国粮食购销领域监管信息化推进会议精神，通报了我省地方储备粮承储库点监管信息化有关情况并进行政策解读。会议指出，加快推进粮食购销领域监管信息化建设，是落实中央纪委国家监委关于深化粮食购销领域腐败问题专项整治的重要举措，是提升粮食库存管理、有效预防腐败的有效手段，是实现穿透式监管、增强粮食安全保障能力的必然要求。会议强调，各地各单位要提高认识，站在讲政治的高度充分认识到推进监管信息化建设的极端重要性和紧迫性，坚决克服松懈情绪和侥幸心理，对标国家局任务要求，紧盯时间节点，倒排工期、挂图作战、专班推进，全力保障各项工作如期高质完成；要科学规划，重点关注“建不建”、“建什么”、“建而不用”“建大用小”和廉政风险防控等问题，系统谋划监管信息化建设；要深化应用，坚持边建边用、坚持深度融合、坚持以用促建、坚持调度督导、坚持常治长效，全面提升数据和视频质量，确保监管信息化落地见效。"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         会议还对抓好全省粮食仓储设施建设、粮食流通执法监督、粮食质量安全监管和政策性粮食企业规范化管理等工作提出了具体要求和部署。"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/p4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         会议以视频形式召开。局机关各有关处室、南昌国家粮食交易中心、省储备粮公司、大成国资集团负责同志及有关工作人员在主会场参加会议。各设区市及县（市、区）粮食行政管理部门负责同志、有关科室负责人，各地方储备粮承储库点库主任及有关工作人员在分会场参加会议。"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/p5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+</LinearLayout>

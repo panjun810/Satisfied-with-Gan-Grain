@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <include layout="@layout/main_title_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="55dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="55dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="请选择查询条件"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        />
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/rl_city"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#A3A3A3"
+            android:text="城市"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:layout_height="15dp"
+            android:layout_width="15dp"
+            android:src="@drawable/iv_right_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/more1"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_city"
+            android:textSize="16sp"
+            android:textColor="#A3A3A3"
+            android:text="所有城市"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/more1"/>
+
+    </RelativeLayout>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"/>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/rl_county"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#A3A3A3"
+            android:text="区县"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#A3A3A3"
+            android:text="所有区县"
+            android:id="@+id/tv_county"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/more2"/>
+
+        <ImageView
+            android:layout_height="15dp"
+            android:layout_width="15dp"
+            android:src="@drawable/iv_right_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/more2"/>
+
+    </RelativeLayout>
+
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"/>
+
+
+
+    <Button
+        android:background="@drawable/register_selector"
+        android:layout_height="40dp"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_search"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:text="查 询"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

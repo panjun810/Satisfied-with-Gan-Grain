@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.example.graduationdesign.customControl.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_title"/>
+
+    <ImageView
+        android:background="@drawable/app_icon"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/iv_head"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="满意赣粮"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/login_switch">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码登录"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:id="@+id/switch_password"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验证登录"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:id="@+id/switch_sms"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_password">
+
+    <EditText
+        android:background="@drawable/login_user_name_bg"
+        android:layout_height="48dp"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_user_name"
+        android:textSize="14sp"
+        android:textColorHint="#a3a3a3"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:hint="请输入用户名"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/user_name_icon" />
+
+    <EditText
+        android:background="@drawable/login_psw_bg"
+        android:layout_height="48dp"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_psw"
+        android:textSize="14sp"
+        android:textColorHint="#a3a3a3"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:hint="请输入密码"
+        android:paddingLeft="8dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/psw_icon"
+        android:inputType="textPassword"/>
+
+</LinearLayout>
+
+    <com.example.graduationdesign.customControl.SmsLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_login"
+        android:visibility="gone"/>
+
+    <Button
+        android:background="@drawable/register_selector"
+        android:layout_height="40dp"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_login"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:text="登 录"/>
+
+    <Button
+        android:background="@drawable/register_selector"
+        android:layout_height="40dp"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_guestlogin"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:text="游客登录"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/tv_register"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:text="立即注册"
+        android:padding="8dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/tv_find_psw"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:text="找回密码?"
+        android:padding="8dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+</LinearLayout>

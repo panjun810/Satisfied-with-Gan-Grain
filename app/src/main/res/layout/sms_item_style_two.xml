@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/linearlayout_validate_sms">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp">
+
+        <EditText
+            android:background="@drawable/find_psw_icon"
+            android:layout_height="48dp"
+            android:layout_width="fill_parent"
+            android:textColor="#000000"
+            android:inputType="phone"
+            android:id="@+id/et_validate_phone"
+            android:textColorHint="#a3a3a3"
+            android:singleLine="true"
+            android:paddingLeft="8dp"
+            android:hint="请输入要验证的手机号"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_psw_bg"
+            android:orientation="horizontal"
+            android:id="@+id/ll_sms">
+
+            <EditText
+                android:background="@drawable/find_psw_icon"
+                android:layout_height="48dp"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:id="@+id/et_validate_sms"
+                android:textColorHint="#a3a3a3"
+                android:singleLine="true"
+                android:paddingLeft="8dp"
+                android:inputType="phone"
+                android:hint="请输入验证码"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1.5"
+                android:id="@+id/btn_sms"
+                android:text="获取验证码"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/register_selector"
+        android:layout_height="40dp"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_login_sms"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:text="验证登录" />
+
+</LinearLayout>

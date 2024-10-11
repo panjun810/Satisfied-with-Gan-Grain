@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg">
+
+    <com.example.graduationdesign.customControl.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_change_title"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="您的密保是:"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/tv_user_security"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@drawable/find_psw_icon"
+        android:layout_height="48dp"
+        android:layout_width="fill_parent"
+        android:textColor="#000000"
+        android:id="@+id/et_user_security"
+        android:textColorHint="#a3a3a3"
+        android:singleLine="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:paddingLeft="8dp"
+        android:hint="请输入要验证的密保"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="您现在绑定的手机号是："
+        android:visibility="gone"
+        android:id="@+id/tv_user_phone"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp" />
+
+    <Button
+        android:background="@drawable/register_selector"
+        android:layout_height="40dp"
+        android:layout_width="fill_parent"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="密保验证"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/btn_security"
+        android:layout_gravity="center_horizontal" />
+
+
+    <com.example.graduationdesign.customControl.SmsLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_phone_change"
+        android:visibility="gone"/>
+
+</LinearLayout>

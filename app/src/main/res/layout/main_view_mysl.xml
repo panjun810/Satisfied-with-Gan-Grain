@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/mysl_login_bg"
+        android:layout_height="240dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/ll_head">
+
+        <!--属性cardCornerRadius设置CardView的圆角半径-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="75dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="35dp">
+
+
+
+    <ImageView
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:id="@+id/iv_head_icon"
+        android:src="@drawable/calender"/>
+
+        </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_user_name"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="点击登录"/>
+
+</LinearLayout>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/rl_granary_history"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:id="@+id/iv_granary_historyicon"
+        android:src="@drawable/history_icon"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#A3A3A3"
+        android:text="库点浏览"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_granary_historyicon"/>
+
+    <ImageView
+        android:layout_height="15dp"
+        android:layout_width="15dp"
+        android:src="@drawable/iv_right_arrow"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"/>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/rl_granary_collect"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:id="@+id/iv_granary_collecticon"
+            android:src="@drawable/collect_icon"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#A3A3A3"
+            android:text="库点收藏"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_granary_collecticon"/>
+
+        <ImageView
+            android:layout_height="15dp"
+            android:layout_width="15dp"
+            android:src="@drawable/iv_right_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"/>
+
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/rl_setting"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:id="@+id/iv_userinfo_icon"
+        android:src="@drawable/myinfo_setting_icon"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#A3A3A3"
+        android:text="系统设置"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_userinfo_icon"/>
+
+    <ImageView
+        android:layout_height="15dp"
+        android:layout_width="15dp"
+        android:src="@drawable/iv_right_arrow"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"/>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/rl_contact"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:id="@+id/iv_userinfo_icon1"
+            android:src="@drawable/user_icon"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#A3A3A3"
+            android:text="联系我们"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_userinfo_icon1"/>
+
+        <ImageView
+            android:layout_height="15dp"
+            android:layout_width="15dp"
+            android:src="@drawable/iv_right_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"/>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/rl_about"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:id="@+id/iv_userinfo_icon2"
+            android:src="@drawable/about_icon"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#A3A3A3"
+            android:text="关于赣粮"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_userinfo_icon2"/>
+
+        <ImageView
+            android:layout_height="15dp"
+            android:layout_width="15dp"
+            android:src="@drawable/iv_right_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"/>
+
+
+</LinearLayout>

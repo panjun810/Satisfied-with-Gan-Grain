@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:id="@+id/ll_navigation_detail">
+
+    <com.example.graduationdesign.customControl.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navigation_detail_title"/>
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="255dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/navigation1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/tv_name"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="10dp"
+        android:text="江西高安省级粮食储备库"
+        android:textColor="#000000"
+        android:textSize="17sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/map_position"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tv_belong"
+                    android:textColor="#000000"
+                    android:text="所属企业：江西高安粮食储备局"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/icon_open_telephone"/>
+
+                <TextView
+                    android:id="@+id/tv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:text="18270529808"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/nbg"/>
+
+                <TextView
+                    android:id="@+id/tv_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:text="仓容紧张"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="今日浏览人数0人"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:background="#E4E4E4"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="35dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ll_navigation"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/icon_card_nav"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:text="导航"/>
+
+        </LinearLayout>
+
+<!--        <View
+            android:background="#E4E4E4"
+            android:layout_height="40dp"
+            android:layout_width="1dp"
+            android:layout_toRightOf="@+id/ll_navigation"
+            android:layout_toLeftOf="@+id/ll_collect"
+            android:layout_marginLeft="68dp"
+            android:layout_marginRight="68dp"/>-->
+
+        <ImageView
+            android:background="#E4E4E4"
+            android:layout_height="40dp"
+            android:layout_width="2dp"
+            android:src="@drawable/line_icon2"
+            android:layout_centerHorizontal="true"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ll_collect"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/iv_collect"
+                android:src="@drawable/collect_icon_unselect"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:text="收藏"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:background="#E4E4E4"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent" />
+
+
+
+
+</LinearLayout>

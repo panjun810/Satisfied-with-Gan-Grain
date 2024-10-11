@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.example.graduationdesign.customControl.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_title"/>
+
+    <ImageView
+        android:background="@drawable/app_icon"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/iv_head"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="满意赣粮"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="品牌名称：“满意赣粮”"
+    android:textColor="#000000"
+    android:textSize="25sp"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="品牌宗旨：为耕者谋利，为食者造福，为业者护航"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="品牌目标：打造满意赣粮，建设美好江西"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+
+
+
+</LinearLayout>

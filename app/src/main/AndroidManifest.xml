@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="CoarseFineLocation" />
+
+    <!--声明使用定位权限-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".utils.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_icon"
+        android:label="满意赣粮"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="PE2BZ-GNRKM-AJQ6Q-6E7DR-TLSMK-YTBVS" />
+
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.myslview.setting.ModifyPswActivity" />
+        <activity android:name=".activity.FindPswActivity" />
+        <activity android:name=".activity.myslview.SettingActivity" />
+        <activity android:name=".activity.myslview.AboutActivity" />
+        <activity android:name=".activity.myslview.setting.userinfo.UserInfoActivity" />
+        <activity android:name=".activity.myslview.setting.userinfo.UserInfoChangeActivity" />
+        <activity android:name=".activity.myslview.ContactActivity" />
+        <activity android:name=".activity.myslview.setting.SecurityChangeActivity" />
+        <activity android:name=".activity.myslview.setting.PhoneChangeActivity" />
+        <activity android:name=".activity.myslview.setting.userinfo.HeadIconChangeActivity" />
+        <activity android:name=".activity.homeview.HeadlineActivity" />
+        <activity android:name=".activity.homeview.HeadlineDetailActivity" />
+        <activity android:name=".activity.navigationview.NavigationActivity" />
+        <activity android:name=".activity.navigationview.NavigationDetailActivity" />
+        <activity android:name=".activity.myslview.GranaryHistoryActivity" />
+        <activity android:name=".activity.myslview.GranaryCollectActivity" /> <!-- 注册内容提供者，<meta-data> 元素用于指定 FileProvider 的配置信息 -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.graduationdesign.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

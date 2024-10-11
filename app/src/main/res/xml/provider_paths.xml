@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- TODO Android7.0 对 Uri 添加了保护，file:// 这样的 Uri 不能附着在 Intent 上，否则会引发 FileUriExposedException，
+                 官方建议使用 FileProvider 改变 Uri 的传递方式。-->
+      <!-- 该 XML 文件中定义了一个路径 <external-path>，用于访问外部存储中的应用数据目录。其中 path 属性指定了路径的具体值，
+        Android/data/包名（这里是com.chen.lister.testchangeicon）/，表示外部存储中应用的数据目录。
+        name 属性指定了路径的名称，files_root为对外公开的路径名称，其他应用可以通过这个名称来访问该路径。
+        这个 XML 文件通常会在应用的 res/xml 目录下创建，并在应用的 AndroidManifest.xml 文件中注册为 FileProvider 的授权路径，
+        以便其他应用可以通过 FileProvider 访问这些文件  -->
+
+    <external-path path="Android/data/com.example.graduationdesign/" name="files_root" />
+
+    <external-path path="/" name="pic_temp" />
+</paths>

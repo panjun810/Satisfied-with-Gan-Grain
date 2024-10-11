@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--定义透明度渐变动画的元素，通过 android:duration 属性指定动画的持续时间为 300 毫秒，
+        android:fromAlpha 属性指定起始的透明度为 0.0，android:toAlpha 属性指定目标的透明度为 1.0。
+        0.0为完全透明，1.0为不透明-->
+    <alpha
+        android:duration="300"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+
+</set>

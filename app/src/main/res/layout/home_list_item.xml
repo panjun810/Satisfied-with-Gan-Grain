@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="110dp"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/tv_order"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/app_icon"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+
+        android:textSize="16sp" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/tv_order"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="省局召开全省粮食购销领域监管信息化工作推进会"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:singleLine="true"
+            android:text="发布时间：2023-04-21"
+            android:layout_alignParentBottom="true"
+            android:textColor="#a3a3a3"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:singleLine="true"
+            android:text="阅读次数：137 次"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#a3a3a3"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:background="#E4E4E4"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="110dp"/>
+
+</RelativeLayout>

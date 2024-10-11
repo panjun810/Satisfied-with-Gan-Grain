@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_adBanner"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+    <!--ViewPager控件用于显示左右滑动的图片-->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_advertBanner"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/default_img"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent">
+        <!--自定义ViewPagerIndicator布局显示滑动的小圆点-->
+        <com.example.graduationdesign.customControl.ViewPagerIndicator
+            android:id="@+id/vpi_advert_indicator"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="4dp" />
+    </LinearLayout>
+</RelativeLayout>

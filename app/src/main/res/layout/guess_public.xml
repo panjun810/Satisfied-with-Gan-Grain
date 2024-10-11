@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:background="#E3E3E3"
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"/>
+
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/rl_guess"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:id="@+id/iv_guess"
+                android:src="@drawable/guess_icon"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_guess"
+                android:textSize="16sp"
+                android:textColor="#33cc00"
+                android:text="品种"
+                android:layout_toRightOf="@+id/iv_guess"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true" />
+
+            <Spinner
+                android:layout_toRightOf="@+id/tv_guess"
+                android:layout_marginLeft="87dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/sp_sort"
+                android:dropDownWidth="match_parent"
+                android:dropDownVerticalOffset="50dp"
+                style="@style/SpinnerStyle" />
+
+
+
+        </RelativeLayout>
+
+        <View
+            android:background="#E3E3E3"
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"/>
+
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/rl_weight"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:id="@+id/iv_weight"
+                android:src="@drawable/guess_icon"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_weight"
+                android:textSize="16sp"
+                android:textColor="#33cc00"
+                android:text="重量(斤)"
+                android:layout_toRightOf="@+id/iv_weight"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:background="@drawable/guess_edit_icon"
+                android:layout_toRightOf="@+id/tv_weight"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/et_weight"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:paddingLeft="8dp"/>
+
+
+
+        </RelativeLayout>
+
+        <View
+            android:background="#E3E3E3"
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"/>
+
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/rl_water"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:id="@+id/iv_water"
+                android:src="@drawable/guess_icon"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_water"
+                android:textSize="16sp"
+                android:textColor="#33cc00"
+                android:text="水分(%) "
+                android:layout_toRightOf="@+id/iv_water"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:background="@drawable/guess_edit_icon"
+                android:layout_toRightOf="@+id/tv_water"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/et_water"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:paddingLeft="8dp"/>
+
+
+
+        </RelativeLayout>
+
+        <View
+            android:background="#E3E3E3"
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"/>
+
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:layout_height="50dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/rl_impurity"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_height="30dp"
+                android:layout_width="30dp"
+                android:id="@+id/iv_impurity"
+                android:src="@drawable/guess_icon"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_impurity"
+                android:textSize="16sp"
+                android:textColor="#33cc00"
+                android:text="杂质率(%)"
+                android:layout_toRightOf="@+id/iv_impurity"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:background="@drawable/guess_edit_icon"
+                android:layout_toRightOf="@+id/tv_impurity"
+                android:layout_marginLeft="53dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/et_impurity"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:inputType="numberDecimal"/>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

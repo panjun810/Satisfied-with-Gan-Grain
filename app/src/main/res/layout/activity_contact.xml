@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<include layout="@layout/main_title_bar"/>-->
+
+    <com.example.graduationdesign.customControl.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_title"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一、12325全国粮食流通监管热线"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12325热线电话受理时间为法定工作日 8:30-12:00、13:00-17:00；12325网络平台全天24小时接收举报。"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="链接入口：http://12325.lswz.gov.cn:8800/outregister/reportMain"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:layout_marginLeft="30dp"
+            android:autoLink="web"
+            android:linksClickable="true"/>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E4E4E4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二、各市粮食局联系电话"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="江西省粮食和物资储备局    0791—86211945"
+            android:id="@+id/tv_hotline"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp" />
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#E4E4E4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="三、江西省粮食局联系电话"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话：0791—86211945"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网址：http://lswz.jiangxi.gov.cn/"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:layout_marginLeft="30dp"
+        android:autoLink="web"
+        android:linksClickable="true"/>
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#E4E4E4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="四、微信平台"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/ewm1"
+                android:src="@drawable/ewm1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="赣粮执法"
+                android:layout_gravity="center"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/ewm2"
+                android:src="@drawable/ewm2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="江西粮食调控"
+                android:layout_gravity="center"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+
+

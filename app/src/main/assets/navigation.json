@@ -1,0 +1,86 @@
+[
+ {
+  "city":"宜春市" ,
+  "county": "樟树市",
+  "background": "navigation2",
+  "name": "江西省樟树东站国家粮食储备库",
+  "belong": "所属:樟树东站",
+  "phone": "15879880489",
+  "state": "仓容良好",
+  "browse": "今日浏览人数10人",
+  "longitude": "27.964498",
+  "latitude": "115.60044"
+ },
+ {
+  "city":"宜春市" ,
+  "county": "高安市",
+  "background": "navigation1",
+  "name": "江西高安省级粮食储备库",
+  "belong": "所属:高安市粮食局",
+  "phone": "15879880489",
+  "state": "仓容良好",
+  "browse": "今日浏览人数20人",
+  "longitude": "28.449064",
+  "latitude": "115.379633"
+ },
+ {
+  "city":"南昌市" ,
+  "county": "南昌县",
+  "background": "navigation3",
+  "name": "江西南昌横岗国家粮食储备库",
+  "belong": "所属:南昌县横岗粮油有限公司",
+  "phone": "15879880489",
+  "state": "仓容已满",
+  "browse": "今日浏览人数30人",
+  "longitude": "28.508092",
+  "latitude": "115.952177"
+ },
+ {
+  "city":"南昌市" ,
+  "county": "进贤县",
+  "background": "navigation1",
+  "name": "进贤县粮食储备库",
+  "belong": "所属:进贤县粮食和物资储备局",
+  "phone": "15879880489",
+  "state": "仓容已满",
+  "browse": "今日浏览人数40人",
+  "longitude": "28.366991",
+  "latitude": "116.266177"
+ },
+ {
+  "city":"赣州市" ,
+  "county": "章贡区",
+  "background": "navigation1",
+  "name": "江西赣州国家粮食储备库",
+  "belong": "所属:赣州市粮食局",
+  "phone": "15879880489",
+  "state": "仓容已满",
+  "browse": "今日浏览人数50人",
+  "longitude": "25.844565",
+  "latitude": "114.920799"
+ },
+ {
+  "city":"赣州市" ,
+  "county": "于都县",
+  "background": "navigation4",
+  "name": "于都县粮食储备库",
+  "belong": "所属:于都县粮食流通服务中心",
+  "phone": "15879880489",
+  "state": "仓容良好",
+  "browse": "今日浏览人数60人",
+  "longitude": "25.954718",
+  "latitude": "115.412683"
+ },
+ {
+  "city":"赣州市" ,
+  "county": "宁都县",
+  "background": "navigation1",
+  "name": "宁都县黄陂中心粮库",
+  "belong": "所属:宁都县粮食和物资储备局",
+  "phone": "15879880489",
+  "state": "仓容已满",
+  "browse": "今日浏览人数60人",
+  "longitude": "26.46842",
+  "latitude": "116.019641"
+ }
+]

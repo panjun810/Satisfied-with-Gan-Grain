@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:background="@android:color/transparent"
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:id="@+id/title_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:background="@drawable/go_back_selector"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:id="@+id/tv_back"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_main_title"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_save"
+        android:layout_centerVertical="true"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:visibility="gone"
+        android:text="保存"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ll_delete_all"
+        android:layout_alignParentRight="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:src="@drawable/delete_icon"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="清空"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ll_collect_all"
+        android:layout_alignParentRight="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:src="@drawable/collect_icon_unselect"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="取关"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/background_gray">
+
+            <ImageView
+                android:layout_height="20dp"
+                android:layout_width="10dp"
+                android:src="@drawable/line_icon"
+                android:layout_marginLeft="8dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/line_icon"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/line_icon"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textColor="#33cc00"
+                android:textSize="20sp"
+                android:text="价格测算数据"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/positive"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_positive"
+                android:layout_centerVertical="true"
+                android:textColor="#38ADFF"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#33cc00"
+            android:text="等级: 三等"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/unit_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#33cc00"
+            android:text="单价: 1.18元/斤"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/gross_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#33cc00"
+            android:text="毛重: 1000斤"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#33cc00"
+            android:text="扣量: -7.5斤"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/net_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#33cc00"
+            android:text="净重: 992.5斤"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#33cc00"
+            android:text="总价: 1171.15元"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FF0000"
+            android:text="本价格测算仅作参考，以实际收购价格为准"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="16dp"
+            android:background="#E8E8E8" />
+
+            <Button
+                android:id="@+id/negtive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="#33cc00"
+                android:gravity="center"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:singleLine="true"
+                android:text="确定"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+plugins {
+    id 'com.android.application'
+    // MOB 添加插件
+    id 'com.mob.sdk'
+}
+
+// 在MobSDK的扩展中注册SMSSDK的相关信息
+MobSDK {
+    appKey "37cd7d2063c67"
+    appSecret "0232ebbef42d4a92b396a8f7fd683ca2"
+    // MOB短信验证
+    SMSSDK {}
+}
+
+android {
+    namespace 'com.example.graduationdesign'
+    compileSdk 32
+
+    signingConfigs {
+        release {
+            storeFile file("D:\\JKS.jks")
+            storePassword "123456"
+            keyAlias "key0"
+            keyPassword "123456"
+        }
+        // 可以添加其他的 signingConfig，如 debug 等
+
+        debug {
+            storeFile file("D:\\JKS.jks")
+            storePassword "123456"
+            keyAlias "key0"
+            keyPassword "123456"
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.example.graduationdesign"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'io.github.bmob:android-sdk:3.8.22'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.21'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.11'
+    implementation 'com.squareup.okio:okio:3.3.0'
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    implementation 'com.wenwenwen888:searchbox:1.0.1'
+    implementation 'com.jakewharton:butterknife:10.2.3'
+
+    implementation 'com.google.code.gson:gson:2.8.9'
+
+    // 地图库
+    implementation 'com.tencent.map:tencent-map-vector-sdk:4.5.5.1-lite'
+    // 导航库
+    implementation 'com.tencent.map:tencent-map-nav-sdk:5.3.8.3'
+    // 导航依赖库
+    implementation 'com.tencent.map:tencent-map-nav-surport:1.1.0.1'
+
+
+}

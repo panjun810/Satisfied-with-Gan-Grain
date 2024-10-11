@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.example.graduationdesign.customControl.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting_title"/>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="15dp"/>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:id="@+id/rl_modify_psw">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#A3A3A3"
+        android:text="修改密码"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:layout_height="15dp"
+        android:layout_width="15dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/iv_right_arrow"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"/>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:id="@+id/rl_security_setting">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#A3A3A3"
+        android:text="设置密保"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:layout_height="15dp"
+        android:layout_width="15dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/iv_right_arrow"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:id="@+id/rl_security_change">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#A3A3A3"
+            android:text="修改密保"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_height="15dp"
+            android:layout_width="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/iv_right_arrow"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:id="@+id/rl_phone_change">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#A3A3A3"
+            android:text="换绑手机"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_height="15dp"
+            android:layout_width="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/iv_right_arrow"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"/>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="15dp"/>
+
+    <RelativeLayout
+        android:background="#F7F8F8"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:id="@+id/rl_exit_login">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#A3A3A3"
+        android:text="退出登录"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
+
+    <View
+        android:background="#E3E3E3"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Graduation Design</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="sort">
+        <item>小麦</item>
+        <item>籼稻</item>
+        <item>粳稻</item>
+    </string-array>
+</resources>

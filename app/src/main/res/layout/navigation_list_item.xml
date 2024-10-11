@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="110dp"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/tv_background"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/headline3"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+
+        android:textSize="16sp" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/tv_background"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="信息化工作推进会"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_belong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:singleLine="true"
+            android:text="所属企业：高安市"
+            android:layout_alignParentBottom="true"
+            android:textColor="#a3a3a3"
+            android:textSize="18sp" />
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:background="#E4E4E4"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="110dp"/>
+
+</RelativeLayout>
