@@ -3,14 +3,9 @@
 ## 支持平台
 - Android 10 及以上
 ## 屏幕截图
-<img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="300"/>
-<img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="300"/>
-<img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="300"/>
-<img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="300"/>
-<img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="300"/>
-<img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="300"/>
 <table>
   <tr>
+    <td><img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="250"/></td>
     <td><img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="250"/></td>
     <td><img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="250"/></td>
     <td><img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="250"/></td>
