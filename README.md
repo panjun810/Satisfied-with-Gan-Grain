@@ -4,23 +4,7 @@
 - Android 10 及以上
 ## 屏幕截图
 
-<table>
-  <tr>
-    <td><img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="250" /></td>
-    <td><img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="250"/></td>
-    <td><img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="250"/></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="250"/></td>
-    <td><img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="250"/></td>
-    <td><img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" alt="截图1" width="250"/></td>
-  </tr>
-</table>
-
-
-## 屏幕截图
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; max-height: 300px; overflow-y: auto;">
+<div style="display: block; max-height: 400px; overflow-y: auto;">
   <img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" width="250" style="margin: 10px;"/>
   <img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" width="250" style="margin: 10px;"/>
   <img src="https://github.com/Mu-L/Kazumi/blob/main/static/screenshot/img_1.png" width="250" style="margin: 10px;"/>
