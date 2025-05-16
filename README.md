@@ -18,7 +18,6 @@
     <tr>
       <td style="padding: 10px;"><img src="https://github.com/user-attachments/assets/e5bdab7b-0dea-4a0e-8e55-32edd6ea0b28" alt="image7" width="250" /></td>
       <td style="padding: 10px;"><img src="https://github.com/user-attachments/assets/e6498269-8fa0-4a4f-9cda-c6ba3da14ab0" alt="image8" width="250" /></td>
-      <td style="padding: 10px;"></td>
     </tr>
   </table>
 </div>
